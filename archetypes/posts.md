@@ -1,10 +1,8 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = "{{ .Date }}"
-author = "Christoph"
 cover = ""
 tags = ["", ""]
-keywords = ["", ""]
 description = ""
 showFullContent = false
 readingTime = false

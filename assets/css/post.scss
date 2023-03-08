@@ -77,6 +77,8 @@
     background: transparent;
     margin: 40px 0;
     padding: 20px;
+    // margin-left: auto;
+    // margin-right: auto;
 
     @media ($phone) {
       padding: 10px;
@@ -105,7 +107,7 @@
     justify-content: center;
     margin-bottom: 10px;
 
-    & + h2 {
+    &+h2 {
       margin-top: -10px;
       margin-bottom: 20px;
     }
@@ -119,7 +121,10 @@
   visibility: hidden;
 }
 
-h1:hover a, h2:hover a, h3:hover a, h4:hover a {
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
   visibility: visible;
 }
 
